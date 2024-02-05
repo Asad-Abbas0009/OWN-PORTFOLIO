@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asad Abbas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Saira+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+   <div class="bg-color">
+   <div class="container">
+       <!---navigation bar-->
+    <nav class="navbar">
+        <img src="" alt="" class="logo-heading" loading="lazy" />
+                <h1 class="textform">Asad Abbas</h1>
+                <ul class="nav-link">
+                    <li class="nav-detail">
+                        <a href="#" class="link">Home</a>
+                        <div class="underline"></div>
+                    </li>
+
+                    <li class="nav-detail">
+                        <a href="#" class="link">Projects</a>
+                        <div class="underline"></div>
+                    </li>
+
+                    <li class="nav-detail">
+                        <a href="#" class="link">Skills</a>
+                        <div class="underline"></div>
+                    </li>
+
+                    <li class="nav-detail">
+                        <a href="#" class="link">Contact Me</a>
+                        <div class="underline"></div>
+                    </li>
+                </ul>
+    </nav>
+   </div>
+  </div>
+
+
+    <div class="">
+        <!--hero section-->
+        <section class="heroSection container">
+            <div class="left-section">
+            <h3 class="fadedText absolute">Asad Abbas</h3>
+              <div class="heading">Hi! Asad Abbas</div>
+              <div class="subHeading">
+                I am a <span class="role"></span>
+              </div>
+              <p class="desc">
+                I’m a software developer and here is my portfolio website. Here
+                you’ll learn about my journey as a software developer.
+              </p>
+              <div class="btn">Hire Me</div>
+           
+        </div>
+        <div class="right-section">
+            <div class="imgContainer">
+              <div class="absolute icons iconDots">
+                <img src="./images/userAsset/dots.png" alt="" />
+              </div>
+              <div class="absolute icons icon-cube">
+                <img src="./images/userAsset/cube.png" alt="" />
+              </div>
+              <div class="absolute icons icon-circle">
+                <img src="./images/userAsset/circle.png" alt="" />
+              </div>
+              <div class="absolute icons iconZigZag">
+                <img src="./images/userAsset/zigzags.png" alt="" />
+              </div>
+              <div class="absolute icons icon-plus">
+                <img src="./images/userAsset/plus.png" alt="" />
+              </div>
+              <div class="">
+                <div class="userImage">
+                  <!-- <img src="./images/userAsset/priyansh.jpg" width="345px" height="390px" alt="" /> -->
+                  <img src="" alt="" />
+                </div>
+              </div>
+            </div>
+        </div>
+          </section>
+    </div>
+
+    <!---skill section-->
+<div class="bg-color">
+    <div class="container">
+        <h1 class="section-heading">Projects</h1>
+    <section class="project-section">
+        <div class="project_1">
+            <h1 class="project-heading">University Management System</h1>
+            <img src="./Images/projects/Project2.png" alt="" width="100%">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, quibusdam veniam? Veniam odit rerum beatae et accusamus aliquid, eum vero, officiis, reprehenderit nam laudantium ipsum.
+            </p>
+            <div class="btn">Read More</div>
+        </div>
+        <div class="project_2">
+            <h1 class="project-heading">Razorpay Clone</h1>
+            <img src="./Images/projects/Project1.png" alt="" width="100%">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, quibusdam veniam? Veniam odit rerum beatae et accusamus aliquid, eum vero, officiis, reprehenderit nam laudantium ipsum.</p>
+            <div class="btn">Read More</div>
+
+            </div>
+        </div>
+        <div class="project_3">
+            <h1 class="project-heading">Portfolio Website</h1>
+            <img src="./Images/projects/Project2.png" alt="" width="100%">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, quibusdam veniam? Veniam odit rerum beatae et accusamus aliquid, eum vero, officiis, reprehenderit nam laudantium ipsum.</p>
+            <div class="btn">Read More</div>
+        </div>
+        <div class="project_4">
+            <h1 class="project-heading">Data Science</h1>
+            <img src="./Images/projects/Project2.png" alt="" width="100%">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, quibusdam veniam? Veniam odit rerum beatae et accusamus aliquid, eum vero, officiis, reprehenderit nam laudantium ipsum.</p>
+            <div class="btn">Read More</div>
+        </div>
+    </section>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <!-- <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+          // array with texts to type in typewriter
+          var dataText = [
+            "Full Stack Developer",
+            "Web Developer",
+            "UI-UX Designer",
+            "Backend Developer",
+            "Coder",
+          ];
+  
+          // type one text in the typwriter
+          // keeps calling itself until the text is finished
+          function typeWriter(text, i, fnCallback) {
+            // chekc if text isn't finished yet
+            if (i < text.length) {
+              // add next character to h1
+              document.querySelector(".role").innerHTML =
+                text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
+  
+              // wait for a while and call this function again for next character
+              setTimeout(function () {
+                typeWriter(text, i + 1, fnCallback);
+              }, 100);
+            }
+            // text finished, call callback if there is a callback function
+            else if (typeof fnCallback == "function") {
+              // call callback after timeout
+              setTimeout(fnCallback, 700);
+            }
+          }
+          // start a typewriter animation for a text in the dataText array
+          function StartTextAnimation(i) {
+            if (typeof dataText[i] == "undefined") {
+              setTimeout(function () {
+                StartTextAnimation(0);
+              }, 20000);
+            }
+            // check if dataText[i] exists
+            if (i < dataText[i].length) {
+              // text exists! start typewriter animation
+              typeWriter(dataText[i], 0, function () {
+                // after callback (and whole text has been animated), start next text
+                StartTextAnimation(i + 1);
+              });
+            }
+          }
+          // start the text animation
+          StartTextAnimation(0);
+        });
+      </script> -->
+    <script>
+      var typeData = new Typed(".role", {
+        strings: [
+          "Full Stack Developer.",
+          "Web Developer.",
+          "UI-UX Designer.",
+          "Backend Developer.",
+          "Coder",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
+</body>
+</html>
