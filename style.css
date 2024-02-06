@@ -271,30 +271,33 @@
   .project-section{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    text-align: center;
     flex-wrap: wrap;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 
   .project_1{
     border-radius: 20px;
     background-color: white;
+    cursor: pointer;
     width: 37%;
     margin: rem;
     padding: 2rem;
-    box-shadow: 0px 5px 5px 0px #0000003f;
+    box-shadow: 0px 0px 10px 0px #0000003f;
   }
   .project_2{
     border-radius: 20px;
+    cursor: pointer;
     background-color: white;
     width: 37%;
     margin: rem;
     padding: 2rem;
-    box-shadow: 10px 5px 5px #020F2F;
+    box-shadow: 0px 0px 10px 0px #020F2F;
     
   }
   .project_3{
     border-radius: 20px;
+    cursor: pointer;
     background-color: white;
     margin-top: 80px;
     width: 37%;
@@ -304,6 +307,7 @@
   }
   .project_4{
     border-radius: 20px;
+    cursor: pointer;
     background-color: white;
     margin-top: 80px;
     width: 37%;
@@ -319,6 +323,18 @@
     width: 50%;
   }
   .project_1:hover{
-    scale: 1.1;
+    scale: 1.05;
+    transition: 0.5s;
+  }
+  .project_2:hover{
+    scale: 1.05;
+    transition: 0.5s;
+  }
+  .project_3:hover{
+    scale: 1.05;
+    transition: 0.5s;
+  }
+  .project_4:hover{
+    scale: 1.05;
     transition: 0.5s;
   }
